@@ -8,7 +8,7 @@ def get_hyperparameters() -> Tuple[float, int, float]:
     # get the hyperparameters
     learning_rate = 0.0001
     num_iters = 100000
-    C = 1
+    C = 5
     return learning_rate, num_iters, C
 
 
